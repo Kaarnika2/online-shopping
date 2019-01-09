@@ -29,7 +29,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 		
 		return query.getResultList();
 	}
-
+	
 	/*
 	 * Getting single category based on id
 	 * */
