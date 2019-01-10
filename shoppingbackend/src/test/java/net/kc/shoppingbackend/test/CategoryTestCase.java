@@ -61,7 +61,7 @@ public class CategoryTestCase {
 		
 		category = categoryDAO.get(3);
 		
-		category.setName("Phone");
+		category.setName("Mobile");
 		
 		assertEquals("Successfully updated a single category in the table!",true,categoryDAO.update(category));
 		
@@ -110,11 +110,13 @@ public class CategoryTestCase {
 		
 		assertEquals("Successfully added a category inside the table!",true,categoryDAO.add(category));
 	
+
+		
 		
 		// fetching and updating the category
 		category = categoryDAO.get(2);
 		
-		category.setName("Phone");
+		category.setName("Mobile");
 		
 		assertEquals("Successfully updated a single category in the table!",true,categoryDAO.update(category));
 
